@@ -1,35 +1,39 @@
 # Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
 client_id = "982e8c47f8d30ccc83dd519903384fb3"
-application_url = "https://liability-examining-carrier-some.trycloudflare.com"
+application_url = "https://throat-headquarters-demands-revealed.trycloudflare.com"
 embedded = true
 name = "qr-code-app"
 handle = "qr-code-app-320"
 
 [build]
-include_config_on_deploy = true
 automatically_update_urls_on_dev = true
+include_config_on_deploy = true
 
 [webhooks]
 api_version = "2025-01"
+
+  [[webhooks.subscriptions]]
+  topics = [ "app/scopes_update" ]
+  uri = "/webhooks/app/scopes_update"
 
   [[webhooks.subscriptions]]
   topics = [ "app/uninstalled" ]
   uri = "/webhooks/app/uninstalled"
 
   [[webhooks.subscriptions]]
-  topics = [ "app/scopes_update" ]
-  uri = "/webhooks/app/scopes_update"
+  topics = [ "products/update" ]
+  uri = "/webhooks/products_update"
 
 [access_scopes]
 # Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
-scopes = "write_products"
+scopes = "read_products,write_products"
 
 [auth]
 redirect_urls = [
-  "https://liability-examining-carrier-some.trycloudflare.com/auth/callback",
-  "https://liability-examining-carrier-some.trycloudflare.com/auth/shopify/callback",
-  "https://liability-examining-carrier-some.trycloudflare.com/api/auth/callback"
+  "https://throat-headquarters-demands-revealed.trycloudflare.com/auth/callback",
+  "https://throat-headquarters-demands-revealed.trycloudflare.com/auth/shopify/callback",
+  "https://throat-headquarters-demands-revealed.trycloudflare.com/api/auth/callback"
 ]
 
 [pos]
