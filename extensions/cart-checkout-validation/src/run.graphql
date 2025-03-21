@@ -1,0 +1,20 @@
+query RunInput {
+  cart {
+    buyerIdentity {
+      customer {
+        numberOfOrders
+      }
+    }
+    cost {
+      subtotalAmount {
+        amount
+      }
+    }
+  }
+  shop {
+    metafield(namespace: "cart-checkout-validation", key: "config") {
+      type
+      value
+    }
+  }
+}

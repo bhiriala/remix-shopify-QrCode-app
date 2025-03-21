@@ -1,7 +1,7 @@
 # Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
 client_id = "982e8c47f8d30ccc83dd519903384fb3"
-application_url = "https://throat-headquarters-demands-revealed.trycloudflare.com"
+application_url = "https://raw-manufacturing-rg-watts.trycloudflare.com"
 embedded = true
 name = "qr-code-app"
 handle = "qr-code-app-320"
@@ -31,9 +31,9 @@ scopes = "read_products,write_products"
 
 [auth]
 redirect_urls = [
-  "https://throat-headquarters-demands-revealed.trycloudflare.com/auth/callback",
-  "https://throat-headquarters-demands-revealed.trycloudflare.com/auth/shopify/callback",
-  "https://throat-headquarters-demands-revealed.trycloudflare.com/api/auth/callback"
+  "https://raw-manufacturing-rg-watts.trycloudflare.com/auth/callback",
+  "https://raw-manufacturing-rg-watts.trycloudflare.com/auth/shopify/callback",
+  "https://raw-manufacturing-rg-watts.trycloudflare.com/api/auth/callback"
 ]
 
 [pos]
