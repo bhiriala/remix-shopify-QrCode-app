@@ -23,7 +23,7 @@ export function run(input) {
   const minOrders = config?.minOrders ? config?.minOrders : D_Config.minOrders;
 
   const error = {
-    localizedMessage: `There is an order maximum of ${maxOrderValue} € for customers without established order history (minimum ${minOrders} orders required).`,
+    localizedMessage: `There is an order maximum of ${maxOrderValue} DT for customers without established order history (minimum ${minOrders} orders required).`,
     target: "cart",
   };
 
