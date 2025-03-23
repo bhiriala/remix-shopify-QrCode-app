@@ -12,13 +12,14 @@ import {
 // Set the entry point for the extension
 export default reactExtension("purchase.checkout.shipping-option-list.render-after", () => <App />);
 
+
 function App() {
   // Set up the checkbox state
   const [checked, setChecked] = useState(false);
 
   // Define the metafield namespace and key
-  const metafieldNamespace = "ClientField";
-  const metafieldKey = "deliveryInstructions";
+  const metafieldNamespace = "ClientF";
+  const metafieldKey = "deliveryInstruc";
 
   // Get a reference to the metafield
   const deliveryInstructions = useMetafield({

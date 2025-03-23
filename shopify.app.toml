@@ -1,7 +1,7 @@
 # Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
 client_id = "982e8c47f8d30ccc83dd519903384fb3"
-application_url = "https://hurt-improvement-birds-rewards.trycloudflare.com"
+application_url = "https://longer-years-alleged-slight.trycloudflare.com"
 embedded = true
 name = "qr-code-app"
 handle = "qr-code-app-320"
@@ -31,9 +31,9 @@ scopes = "read_products,write_products"
 
 [auth]
 redirect_urls = [
-  "https://hurt-improvement-birds-rewards.trycloudflare.com/auth/callback",
-  "https://hurt-improvement-birds-rewards.trycloudflare.com/auth/shopify/callback",
-  "https://hurt-improvement-birds-rewards.trycloudflare.com/api/auth/callback"
+  "https://longer-years-alleged-slight.trycloudflare.com/auth/callback",
+  "https://longer-years-alleged-slight.trycloudflare.com/auth/shopify/callback",
+  "https://longer-years-alleged-slight.trycloudflare.com/api/auth/callback"
 ]
 
 [pos]
