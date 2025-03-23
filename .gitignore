@@ -14,6 +14,9 @@ database.sqlite
 .env.*
 
 
+rm -rf node_modules/.prisma
+rm -rf prisma/generated
+npx prisma generate
 
 
 

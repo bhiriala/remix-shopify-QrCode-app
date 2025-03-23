@@ -12,3 +12,4 @@ handle = "custom-field"
 [[extensions.targeting]]
 module = "./src/Checkout.jsx"
 target = "purchase.checkout.shipping-option-list.render-after"
+

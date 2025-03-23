@@ -12,7 +12,6 @@ import {
 // Set the entry point for the extension
 export default reactExtension("purchase.checkout.shipping-option-list.render-after", () => <App />);
 
-
 function App() {
   // Set up the checkbox state
   const [checked, setChecked] = useState(false);
